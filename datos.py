@@ -45,4 +45,25 @@ for x in l1:
 	print(x)
 
 l1[0]= "Ya casi nos vamos"
-print(l1)	 
+
+#para agregar elementos a la lista se utiliza el método append()
+l1.append("Viendo commits")
+
+
+print(l1)
+
+#se pueden construir listas desde cero hay dos formas
+l2 = []
+l3 = list()
+
+print(l2, l3)
+
+#se pueden crear listas por definicion
+# comprehesion list
+
+#a = [ x, x in range(1, 100)]
+a = range(1,100)
+print(a)
+
+pares = [x>10, x in a]
+print(pares)
